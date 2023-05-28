@@ -3,6 +3,7 @@ import Profile from './profile/Profile';
 import profileImage from './profile/profile-image.jpg';
 import './App.css'
 const App = () => {
+    // fonction handleName permet d'afficher une alert
   const handleName = (fullName) => {
     alert(`Profile user's full name: ${fullName}`);
   };

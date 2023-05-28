@@ -2,11 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Profile = ({ fullName, bio, profession, children, handleName }) => {
+  // fonction handleName permet d'afficher une alert
   const handleClick = () => {
     handleName(fullName);
   };
+  // Un peu de style pour le nom et le prenom de l'utilisateur
   const headStyle = {
-    color: 'black',
+    color: 'green',
   };
   return (
     <div style={{ textAlign: 'center' }}>
